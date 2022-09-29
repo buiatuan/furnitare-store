@@ -1,6 +1,10 @@
 /* Css dùng chung cho cả project. không viết các css riêng vào file này. file html nào cũng link
 vào trước các  file css khác */
 
+/* Màu chủ đạo, kích thước dùng nhiều(Thêm vào đây dùng) của web. dung thì dùng cái này
+    sau này đổi sang tông màu khác chỉ cần đổi ở đây.
+- Cách dùng ví dụ: a { color: var(--text-color); }
+*/
 :root {
     --white-color: #fff;
     --black-color: #000;
@@ -15,6 +19,7 @@ vào trước các  file css khác */
     margin: 0;
 }
 
+/* Font size nhớ dùng rem. 16px => 1.6rem */
 html {
     font-size: 62.5%;
     line-height: 1.6rem;

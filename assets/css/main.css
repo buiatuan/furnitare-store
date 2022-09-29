@@ -249,6 +249,7 @@ button.modal-search-icon:focus {
 
 /* End Header */
 
+/* Css Footer */
 #footer {
     width: 100%;
     border-top: 1px solid var(--border-color);
@@ -347,3 +348,5 @@ button.modal-search-icon:focus {
     color: var(--text-color);
     text-decoration: underline;
 }
+
+/* End css Footer */
