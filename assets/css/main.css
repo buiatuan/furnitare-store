@@ -1,0 +1,345 @@
+/* Begin css Header */
+#header {
+    z-index: 88;
+    font-family: 'Jost', sans-serif !important;
+    height: var(--height-header);
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+    position: fixed;
+    top: 0;
+    transition: top 1s;
+    background-color: var(--white-color);
+}
+
+.header-grid {
+    height: 100%;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav-menu {
+    list-style: none;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    height: var(--height-header);
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-nav-menu > li {
+    line-height: var(--height-header);
+    margin: 0 18px;
+    padding-right: 10px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.header-nav-menu > li:hover {
+    opacity: 0.8;
+}
+
+.header-nav-menu > li:first-child {
+    margin-left: 0;
+}
+
+.header-nav-menu > li:last-child {
+    margin-right: 0;
+}
+
+.header-nav-menu > li > a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 600;
+    outline: none;
+}
+
+.header-nav-menu > li:hover .nav-sub-menu {
+    display: block;
+}
+
+/* Sub menu */
+.nav-sub-menu {
+    position: absolute;
+    left: -20px;
+    top: 100%;
+    min-width: 160px;
+    padding: 11px 0;
+    box-shadow: 0 2px 3px #ccc;
+    display: none;
+    transform-origin: 50% top;
+    animation: scrollBottom linear 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.nav-sub-menu > li {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    list-style: none;
+    padding: 0 27px;
+}
+
+.nav-sub-menu > li > a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* Logo */
+.header-logo {
+    height: var(--height-header);
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 60%;
+}
+
+/* nav right */
+.header-nav-right {
+    display: flex;
+    align-items: center;
+    flex: end;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+
+.header-nav-right .header-nav-right-item {
+    text-decoration: none;
+    color: var(--text-color);
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav-right-item > i {
+    margin-right: 8px;
+}
+
+.header-nav-right-item > span {
+    font-weight: 400;
+    margin-right: 3px;
+}
+
+/* Modal search header */
+.modal-header-search {
+    width: 100%;
+    min-height: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(29, 29, 29, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 1s linear;
+}
+.modal-header-search.modal-show {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+
+.modal-search-main {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 50%;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: showModal linear 1s;
+}
+
+.modal-wrapper-input-search {
+    height: var(--height-header);
+    width: 670px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.modal-search-main-input {
+    flex: 1;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 6rem;
+    font-weight: 300;
+}
+
+input.modal-search-main-input:focus {
+    outline-color: #000;
+}
+
+.modal-search-icon {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+button.modal-search-icon:active,
+button.modal-search-icon:focus {
+    border: none;
+    outline: none;
+    color: black;
+}
+.modal-search-icon-svg {
+    fill: #ccc;
+    transition: fill 0.2s;
+}
+.modal-search-icon:hover .modal-search-icon-svg {
+    fill: var(--text-color);
+}
+
+.modal-wrapper-input-search:focus ~ .modal-search-main-input {
+    color: #000;
+}
+
+.modal-wrapper-input-search i {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.modal-search-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    transform: rotate(0);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.modal-search-close:hover {
+    transform: rotate(90deg);
+}
+
+@keyframes transform {
+    25% {
+        transform: rotate(25deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+/* End Header */
+
+#footer {
+    width: 100%;
+    border-top: 1px solid var(--border-color);
+    padding-top: 60px;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.footer-grid-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    min-height: 200px;
+    padding: 0;
+}
+
+.footer-grid-item h3 {
+    font-size: 1.5rem;
+    font-family: 'Jost', sans-serif !important;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.footer-grid-item ul {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+.footer-grid-item ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-grid-item ul li a {
+    font-family: 'Jost', sans-serif !important;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    transition: padding-left linear 0.3s;
+}
+
+.footer-grid-item ul li a::before {
+    content: url('../images/arrow.svg');
+    width: 12px;
+    height: 22px;
+    position: absolute;
+    top: 0;
+    left: -12px;
+    transition: left linear 0.3s;
+}
+.footer-grid-item ul li a:hover {
+    padding-left: 16px;
+}
+
+.footer-grid-item ul li a:hover:before {
+    left: 0;
+}
+
+.footer-bottom {
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 130px 0 30px;
+}
+
+.footer-bottom a {
+    height: 70px;
+}
+
+.footer-bottom a img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+.footer-bottom p {
+    font-family: 'Jost', sans-serif !important;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.footer-bottom span {
+    font-family: 'Jost', sans-serif !important;
+    font-size: 1.3rem;
+    flex: 1;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.footer-bottom span a {
+    color: var(--text-color);
+    text-decoration: underline;
+}
