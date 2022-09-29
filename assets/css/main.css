@@ -54,6 +54,8 @@
 }
 
 .header-nav-menu > li > a {
+    font-family: 'Jost', sans-serif !important;
+    font-weight: 400 !important;
     text-decoration: none;
     color: var(--text-color);
     font-weight: 600;
@@ -86,6 +88,8 @@
 }
 
 .nav-sub-menu > li > a {
+    font-family: 'Jost', sans-serif !important;
+    font-weight: 400 !important;
     text-decoration: none;
     color: var(--text-color);
 }
