@@ -5,7 +5,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
+        <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png" />
 
         <link rel="stylesheet" href="./assets/css/base.css" />
 
@@ -62,10 +62,11 @@
                             <i class="fas fa-search"></i>
                             <span>Search</span>
                         </a>
-                        <a href="#" class="nav-account header-nav-right-item">
+                        <!-- Account -->
+                        <!-- <a href="#" class="nav-account header-nav-right-item">
                             <i class="far fa-user"></i>
                             <span>Account</span>
-                        </a>
+                        </a> -->
                         <a href="#" class="nav-wishlist header-nav-right-item">
                             <i class="far fa-heart"></i>
                             <span>Wishlist</span>
@@ -127,6 +128,80 @@
             </div>
         </div>
         <!-- End Modal search header -->
+
+        <!-- Begin modal Cart -->
+
+        <div class="modal-cart hidden">
+            <div class="modal-main-cart">
+                <span class="modal-cart-close">
+                    <svg
+                        class="qodef-svg--close qodef-search-close"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="32"
+                        height="32"
+                        viewBox="0 0 32 32"
+                    >
+                        <g>
+                            <path
+                                d="M 10.050,23.95c 0.39,0.39, 1.024,0.39, 1.414,0L 17,18.414l 5.536,5.536c 0.39,0.39, 1.024,0.39, 1.414,0 c 0.39-0.39, 0.39-1.024,0-1.414L 18.414,17l 5.536-5.536c 0.39-0.39, 0.39-1.024,0-1.414c-0.39-0.39-1.024-0.39-1.414,0 L 17,15.586L 11.464,10.050c-0.39-0.39-1.024-0.39-1.414,0c-0.39,0.39-0.39,1.024,0,1.414L 15.586,17l-5.536,5.536 C 9.66,22.926, 9.66,23.56, 10.050,23.95z"
+                            ></path>
+                        </g>
+                    </svg>
+                </span>
+                <h4 class="modal-cart-heading">Shopping Cart</h4>
+
+                <!-- Cart no item -->
+                <!-- <div class="modal-cart-no-item">
+                    <h5 class="modal-cart-no-item__alert">No products in the cart.</h5>
+
+                    <a href="#" class="modal-cart-no-item__link"> CONTINUE SHOPPING </a>
+                </div> -->
+
+                <!-- Cart have any item -->
+                <div class="modal-cart-main">
+                    <div class="modal-cart-main_product">
+                        <div class="modal-cart-main-item">
+                            <a href="#" class="modal-cart-main-item__image">
+                                <img src="./assets/images/cart/item-cart-01.jpg" alt="" />
+                            </a>
+                            <div class="modal-cart-main-content">
+                                <a href="#" class="modal-cart-main-item__name">Butterfly Leather Chair</a>
+                                <p class="modal-cart-main-item__quantity">Quantity: 1</p>
+                                <p class="modal-cart-main-item__price">$176.99</p>
+                            </div>
+                            <span class="modal-cart-main-item__close">
+                                <svg
+                                    class="qodef-svg--close qodef-search-close"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 32 32"
+                                >
+                                    <g>
+                                        <path
+                                            d="M 10.050,23.95c 0.39,0.39, 1.024,0.39, 1.414,0L 17,18.414l 5.536,5.536c 0.39,0.39, 1.024,0.39, 1.414,0 c 0.39-0.39, 0.39-1.024,0-1.414L 18.414,17l 5.536-5.536c 0.39-0.39, 0.39-1.024,0-1.414c-0.39-0.39-1.024-0.39-1.414,0 L 17,15.586L 11.464,10.050c-0.39-0.39-1.024-0.39-1.414,0c-0.39,0.39-0.39,1.024,0,1.414L 15.586,17l-5.536,5.536 C 9.66,22.926, 9.66,23.56, 10.050,23.95z"
+                                        ></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="modal-cart-main-total">
+                        <span>TOTAL:</span> <span class="modal-cart-main-total__cost">$176.99</span>
+                    </div>
+                </div>
+                <div class="modal-cart-main-btn_link">
+                    <a href="#" class="modal-cart-main-btn_link-view">
+                        <span> VIEW SHOPPING CART </span>
+                    </a>
+                    <a href="#" class="modal-cart-main-btn_link-checkout"> GO TO CHECKOUT </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- End modal Cart -->
 
         <!-- Begin Footer -->
         <footer id="footer">

@@ -19,23 +19,44 @@ window.addEventListener('scroll', function () {
 var headerSearch = document.querySelector('.nav-search');
 var headerModal = document.querySelector('.modal-header-search');
 var modalClose = document.querySelector('.modal-search-close');
-var modalWrapper = document.querySelector('.modal-header-search');
 var modalMainSearch = document.querySelector('.modal-search-main');
 
-var showModal = function (e) {
-    headerModal.classList.add('modal-show');
+var showModalSearch = function (e) {
+    headerModal.classList.add('show');
     document.querySelector('.modal-search-main-input').focus();
 };
 
-var hiddenModal = function (e) {
-    headerModal.classList.remove('modal-show');
+var hiddenModalSearch = function (e) {
+    headerModal.classList.remove('show');
 };
 
-headerSearch.addEventListener('click', showModal);
-modalClose.addEventListener('click', hiddenModal);
-modalWrapper.addEventListener('click', hiddenModal);
+headerSearch.addEventListener('click', showModalSearch);
+modalClose.addEventListener('click', hiddenModalSearch);
+headerModal.addEventListener('click', hiddenModalSearch);
 
 modalMainSearch.addEventListener('click', function (e) {
     e.stopPropagation();
 });
 // End Show hidden Modal
+
+// Show hidden Cart modal
+
+var shoppingCart = document.querySelector('.nav-shopping-cart');
+var modalCart = document.querySelector('.modal-cart');
+var closeModalCart = document.querySelector('.modal-cart-close');
+var modalMainCart = document.querySelector('.modal-main-cart');
+
+var showModalCart = (e) => {
+    modalCart.classList.add('show');
+};
+
+var hiddenModalCart = (e) => {
+    modalCart.classList.remove('show');
+};
+
+shoppingCart.addEventListener('click', showModalCart);
+closeModalCart.addEventListener('click', hiddenModalCart);
+modalCart.addEventListener('click', hiddenModalCart);
+modalMainCart.addEventListener('click', function (e) {
+    e.stopPropagation();
+});

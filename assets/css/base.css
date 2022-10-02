@@ -19,12 +19,52 @@ vào trước các  file css khác */
     margin: 0;
 }
 
+/* color blacked out */
+::selection {
+    background: #000;
+    color: var(--white-color);
+}
+::-moz-selection {
+    background: #000;
+    color: var(--white-color);
+}
+::-webkit-selection {
+    background: #000;
+    color: var(--white-color);
+}
+
+/* Scrollbar css */
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 10px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 /* Font size nhớ dùng rem. 16px => 1.6rem */
 html {
     font-size: 62.5%;
     line-height: 1.6rem;
     font-family: 'Jost', sans-serif !important;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    outline: none !important;
+    text-decoration: none !important;
 }
 
 /*responsive*/
@@ -48,7 +88,7 @@ html {
     }
 }
 
-@keyframes showModal {
+@keyframes showModalUpToDown {
     from {
         opacity: 0;
         transform: translateY(-100px);
@@ -56,5 +96,16 @@ html {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@keyframes showModalRightToLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(calc(100% + 200px));
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
     }
 }
