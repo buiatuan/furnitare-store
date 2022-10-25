@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+}
+.title{
+    margin-top: 100px;
+    margin-left: 60px;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif !important;
+    color: var(--black-color);
+}
+.link-text span{
+    color: var(--black-color);
+}
+.elementor-wrap{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 135px;
+}
+.elementor-1 h1{
+    font-family: 'Jost', sans-serif !important;
+    font-weight: 400;
+    color:var(--black-color);
+    line-height: 1.24em;
+    font-size: 4.2rem;
+    word-wrap: break-word;
+    text-transform: uppercase;
+}   
+.elementor-2 p{
+    font-family: 'Jost', sans-serif !important;
+    font-size: 2.1rem;
+    line-height: 28px;
+    color:var(--black-color);
+    margin-top: 26px;
+} 
+.elementor-3 p{
+    font-family: 'Jost', sans-serif !important;
+    font-size: 1.6rem;
+    color:var(--black-color);
+    margin-top: 10px;
+}
+.btn button{
+    width: 140px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 #313131;
+    background-color: var(--white-color);
+    font-family:'Jost', sans-serif !important;
+    font-size: 1.6rem;
+    padding-top: 3px;   
+}
+.btn a{
+    color: var(--black-color);
+}
+.btn .btn-1:hover{
+    box-shadow: inset 140px 0 0 0 #313133;
+}
+.current-2 img{
+    width: 548px;
+    height: 422px;
+}
+.hr-1{
+    margin-left: 48px;
+    width: 93%;
+    padding-bottom: 45px;
+}
+.current-3{
+    padding-left: 55px;
+    padding-bottom: 40px;
+}
+.m-tagline{
+    font-family:'Jost', sans-serif !important;
+    display: inline-block;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: var(--black-color);
+}
+.m-title{
+    font-family:'Jost', sans-serif !important;
+    text-transform: uppercase;
+    color: var(--black-color);
+    font-weight: 400;
+    font-size: 3.6rem;
+    line-height: 1.17em;
+    word-wrap: break-word;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 120px;
+}
+.m-image{
+    padding-bottom: 40px;
+}
+.ab-title h4{
+    font-family:'Jost', sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 2.0rem;
+    line-height: 1.3em;
+    word-wrap: break-word;
+    padding-bottom: 27px;
+}
+.elementor-container p{
+    font-family:'Jost', sans-serif !important;
+    font-size: 1.6rem;
+    color: var(--black-color);
+    margin: 10px 0px;
+}
+.elementor-container a{
+    color: var(--black-color);
+    text-decoration: underline;
+}
+.elementor-container a:hover{
+    color: #313131;
+}
+.elementor-column{
+    background-color: #f3f3f3;
+}
+.m-column{  
+    width: 594px;
+    height: 594px;
+    overflow-y: scroll;
+}
+.m-column::-webkit-scrollbar{
+    display: none;
+}
+.m-img{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.m-img img{
+    width: 594px;
+    height: 594px;
+}
+.elementor-column{
+    display: flex;
+    justify-content: space-around;
+    scroll-behavior: smooth;
+}
+.m-column{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.infor-top{
+    padding-bottom: 15px;
+}
+.infor-top span{
+    font-family:'Jost', sans-serif !important;
+    font-size: 1.4rem;
+    color: var(--black-color);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 15px;
+    display: block;
+}
+.infor-top h2{
+    font-family:'Jost', sans-serif !important;
+    font-size: 3.6rem;
+    font-weight: 400;
+    color: var(--black-color);
+    text-transform: uppercase;
+    line-height: 1.17em;
+    word-wrap: break-word;
+    margin: 0px 0px 18px;
+}
+.elementor-widger-container h4{
+    font-family:'Jost', sans-serif !important;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 2.0rem;
+    line-height: 1.3em;
+    margin: 25px 0px;
+}
+.elementor-widger-container p{
+    font-family:'Jost', sans-serif !important;
+    color: var(--black-color);
+    font-size: 1.6rem;
+    margin: 10px 0px;
+}
+.elementor-widget-container p{
+    font-family:'Jost', sans-serif !important;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 3.0rem;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: 130px;
+}
+.elementor-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+.icon-wrapper img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.m-title-text{
+    font-family:'Jost', sans-serif !important;
+    text-align: center;
+    color: var(--black-color);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+.icon-h1{
+    margin-left: 20px;
+}
+.icon-h2{
+    margin-left: 28px;
+}
+.icon-h3{
+    margin-left: 13px;
+}
+.icon-h4{
+    margin-left: 22px;
+}
+.icon-h5{
+    margin-left: 18px;
+}
