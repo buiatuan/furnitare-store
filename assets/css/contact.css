@@ -22,12 +22,10 @@
     padding-top: 45px;
     font-family: 'Jost', sans-serif !important;
 }
-.gg-map iframe{
-    margin-top: 50px;
-    margin-bottom: 85px;
-    width: 1230px;
-    height: 400px;
-    margin-left: 60px;
+.grid iframe{
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 .elementor{
     text-align: center;
