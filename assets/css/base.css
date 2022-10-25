@@ -63,8 +63,8 @@ a {
 }
 
 a:hover {
-    outline: none !important;
-    text-decoration: none !important;
+    outline: none;
+    text-decoration: none;
 }
 
 /*responsive*/
