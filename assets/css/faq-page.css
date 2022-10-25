@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+.title{
+    margin-top: 100px;
+    margin-left: 60px;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif !important;
+    color: var(--black-color);
+}
+.link-text span{
+    color: var(--black-color);
+}
+.elementor-column-default{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 65px;
+    padding-bottom: 150px;
+}
+.elementor-left-column{
+    width: 25%;
+    font-family: 'Jost', sans-serif !important;
+}
+.elementor-right-column{
+    width: 75%;
+    font-family: 'Jost', sans-serif !important;
+    color: var(--black-color);
+    margin: 10px 0;
+}
+.top-left-column p{
+    font-size: 1.5rem;
+    color: var(--black-color);
+    text-transform: uppercase;
+}
+.top-left-column a{
+    font-size: 1.5rem;
+    color: var(--black-color);
+    text-decoration: underline;
+}
+.bottom-left-column{
+    padding: 31px 0 0;
+}
+.bottom-left-column a span{
+    font-size: 1.6rem;
+    color: var(--black-color);
+}
+.elementor-widget p{
+    font-size: 4.2rem;
+    font-weight: 400;
+    line-height: 52px;
+}
+.elementor-widget-wrap p{
+    font-size: 3.0rem;
+    font-weight: 400;
+    line-height: 52px;
+}
+.elementor-widget-wrapper p{
+    font-size: 1.6rem;
+}

@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+.title{
+    margin-top: 100px;
+    margin-left: 60px;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif !important;
+    color: var(--black-color);
+}
+.link-text span{
+    color: var(--black-color);
+}
+.current p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 4.2rem;
+    color: var(--black-color);
+    padding-top: 45px;
+    font-family: 'Jost', sans-serif !important;
+}
+.wrapper-1{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+.designer-image{
+    overflow: hidden;
+}
+.designer-image a:hover img{
+    transform: scale(1.1) translate(2%);
+}
+.designer-image a img{
+    transition: all 0.6s ease-in-out;
+}
+.designer-inner{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.grid-item{
+    width: 45%;
+}
+.designer-name{
+    margin: 25px 0px 14px;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+}
+h4{
+    font-family: 'Jost', sans-serif !important;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 1.3em;
+    margin: 25px 0px;
+    word-wrap: break-word;
+}
+.designer-excerpt{
+    margin: 0 0 24px;
+}
+p{
+    font-family: 'Jost', sans-serif !important;
+    color: #313131;
+    font-size: 1.6rem;
+}
+hr{
+    margin-left: 48px;
+    width: 93%;
+}
+.content-bottom{
+    max-width: 666px;
+    margin: 142px auto 130px;
+    text-align: center;
+}
+.cb-title{
+    font-family: 'Jost', sans-serif !important;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 3.0rem;
+    line-height: 1.2em;
+    margin: 25px 0;
+}
+.cb-form{
+    position: relative;
+    margin: 55px auto 0;
+    max-width: 620px;
+}
+.cb-form input{
+    width: 620px;
+    height: 60px;
+}
+.cb-form input::placeholder{
+    font-size: 1.6rem;
+}
+.cb-form button{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+.cb-form button span{
+    border: 1px solid;
+    border-radius: 20px;
+}
+.cb-text{
+    font-family: Jost,sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 1.4rem;
+    line-height: 1.43em;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.cb-text a{
+    color: #313131;
+}
+.cb-text a:hover{
+    color: #313131;
+}
