@@ -124,6 +124,7 @@ a:hover {
     border-radius: 12px;
     position: relative;
     transition: all linear 0.2s;
+    cursor: pointer;
 }
 
 .btn-custom-primary::after {
@@ -143,4 +144,11 @@ a:hover {
 
 .btn-custom-primary:hover::after {
     content: url('../images/home/arrow_light.svg');
+}
+
+.btn-custom-sm {
+    width: 80px !important;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: var(--text-color);
 }
