@@ -65,6 +65,7 @@ a {
 a:hover {
     outline: none;
     text-decoration: none;
+    color: var(--text-color);
 }
 
 /*responsive*/
@@ -108,4 +109,38 @@ a:hover {
         opacity: 1;
         transform: translateX(0);
     }
+}
+
+/* Button custom */
+.btn-custom-primary {
+    height: 30px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    border: 1px solid var(--black-color);
+    border-radius: 12px;
+    position: relative;
+    transition: all linear 0.2s;
+}
+
+.btn-custom-primary::after {
+    content: url('../images/arrow.svg');
+    width: 18px;
+    position: absolute;
+    top: 10%;
+    right: 8px;
+    transition: all linear 0.2s;
+}
+
+.btn-custom-primary:hover {
+    background-color: var(--black-color);
+    border-radius: 4px;
+    color: var(--white-color);
+}
+
+.btn-custom-primary:hover::after {
+    content: url('../images/home/arrow_light.svg');
 }
