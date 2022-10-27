@@ -318,9 +318,6 @@ main {
     padding-bottom: 30px;
 }
 
-.overview-right {
-}
-
 .feature-blog-item__img {
     min-height: 800px;
     background-image: url('../images/home/blog-background-1.jpg');
@@ -397,4 +394,14 @@ main {
 
 .overview-left .feature-blog-item__img {
     background-image: url('../images/home/blog-background-2.jpg');
+}
+
+.btn-go-top {
+    z-index: 2;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    transform: rotate(-90deg);
+    background-color: var(--white-color);
+    display: none;
 }
