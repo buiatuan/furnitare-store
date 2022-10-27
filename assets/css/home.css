@@ -395,13 +395,3 @@ main {
 .overview-left .feature-blog-item__img {
     background-image: url('../images/home/blog-background-2.jpg');
 }
-
-.btn-go-top {
-    z-index: 2;
-    position: fixed;
-    bottom: 100px;
-    right: 50px;
-    transform: rotate(-90deg);
-    background-color: var(--white-color);
-    display: none;
-}
