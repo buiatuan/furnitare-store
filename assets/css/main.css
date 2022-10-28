@@ -1,6 +1,6 @@
 /* Begin css Header */
 #header {
-    z-index: 1;
+    z-index: 100;
     font-family: 'Jost', sans-serif !important;
     height: var(--height-header);
     width: 100%;

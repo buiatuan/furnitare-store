@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang='en' xmlns='http://www.w3.org/1999/html'>
+<head>
+    <title>Cart</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png" />
+
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300&display=swap"
+        rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/plugins/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./assets/plugins/fontawesome/css/all.min.css" />
+
+    <!-- Customer -->
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href='assets/css/cart.css' />
+
+</head>
+<body>
+<!-- Header -->
+<header id="header">
+    <div class="grid header-grid">
+        <div class="header-content">
+            <ul class="header-nav-menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Shop</a>
+                </li>
+                <li>
+                    <a href="#">Pages</a>
+                    <i class="fas fa-angle-down"></i>
+                    <ul class="nav-sub-menu">
+                        <li><a href="#">Sub 1</a></li>
+                        <li><a href="#">Sub 2</a></li>
+                        <li><a href="#">Sub 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+            </ul>
+            <a class="header-logo" href="#">
+                <img src="./assets/images/logo-big.png" alt="Logo" style="color: #000" />
+            </a>
+            <div class="header-nav-right">
+                <a href="#" class="nav-search header-nav-right-item">
+                    <i class="fas fa-search"></i>
+                    <span>Search</span>
+                </a>
+                 <a href="#" class="nav-account header-nav-right-item">
+                    <i class="far fa-user"></i>
+                    <span>Account</span>
+                </a>
+                <a href="#" class="nav-wishlist header-nav-right-item">
+                    <i class="far fa-heart"></i>
+                    <span>Wishlist</span>
+                </a>
+                <a href="#" class="nav-shopping-cart header-nav-right-item">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Cart</span>
+                    <span>$962.67</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- Content -->
+
+<section id="">
+    <div class="grid">
+        <div class="container-cart">
+            <div class="content-cart">
+                <div class="title">
+                    <a class="link-text" href="#">
+                        <span> Home </span>
+                    </a>
+                    <span> / </span>
+                    <span>Cart</span>
+
+                </div>
+                <div class='container-cart-title'>
+                    <h1>SHOPPING CART</h1>
+                </div>
+                  <form class="woocommerce-cart-form">
+                                <table class='table-cart' >
+                                    <thead>
+                                    <tr>
+                                        <th class="product-remove"></th>
+                                        <th class="product-thumbnail"></th>
+                                        <th class="product-name">Product</th>
+                                        <th class="product-price">Price</th>
+                                        <th class="product-quantity">Quantity</th>
+                                        <th class="product-subtotal">Subtotal</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="woocommerce-cart-form__cart-item cart_item">
+                                        <td class="product-remove">
+                                            <a style='font-size: 26px;' href="">×</a>
+                                        </td>
+                                        <td class="product-thumbnail">
+                                            <a href=""><img src='assets/images/product/shop-31-img-1.jpg' width="100" height="100"></a>
+                                        </td>
+
+                                        <td class="product-name">
+                                            <a href="">Stjarna Wooden Lamp</a>
+                                        </td>
+
+                                        <td class="product-price">
+                                            <span><span class="woocommerce-Price-currencySymbol">$</span>180.89</span>
+                                        </td>
+                                        <td class="product-quantity" data-title="Quantity">
+                                                <div id='quantity'>
+                                                    <div class='qtyminus'>-</div>
+                                                    <input style='outline: none' type='text' name='quantity' value='01' class='qty'>
+                                                    <div class='qtyplus'>+</div>
+                                                </div>
+                                        </td>
+                                        <td class="product-subtotal" data-title="Subtotal">
+                                            <span class='abc'><span class="woocommerce-Price-currencySymbol">$</span>180.89</span>
+                                    </tr>
+                                    <tr style='height: 100px'>
+                                        <td class="actions">
+                                            <button class='round-black-btn'>UPDATE CART</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                    </form>
+
+
+
+                <div class="cart-collaterals">
+                    <div class="cart_totals ">
+                        <h2>CART TOTALS</h2>
+                        <table cellspacing="0" class="shop_table shop_table_responsive">
+
+                            <tbody><tr class="cart-subtotal">
+                                <th>SUBTOTAL</th>
+                                <td data-title="Subtotal"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>180.89</bdi></span></td>
+                            </tr>
+                            <tr class="woocommerce-shipping-totals shipping">
+                                <th>SHIPPING</th>
+                                <td data-title="Shipping">
+                                    <ul id="shipping_method" class="woocommerce-shipping-methods">
+                                        <li>
+                                            <input type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_flat_rate1" value="flat_rate:1" class="shipping_method" checked="checked"><label for="shipping_method_0_flat_rate1">Flat rate</label>					</li>
+                                        <li>
+                                            <input type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_free_shipping2" value="free_shipping:2" class="shipping_method"><label for="shipping_method_0_free_shipping2">Free shipping</label>					</li>
+                                        <li>
+                                            <input type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_local_pickup3" value="local_pickup:3" class="shipping_method"><label for="shipping_method_0_local_pickup3">Local pickup</label>					</li>
+                                    </ul>
+                                    <p class="woocommerce-shipping-destination">
+                                        Shipping to <strong>CA</strong>. 				</p>
+                                </td>
+                            </tr>
+                            <tr class="order-total">
+                                <th>TOTAL</th>
+                                <td data-title="Total"><strong><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>180.89</bdi></span></strong> </td>
+                            </tr>
+
+
+                            </tbody></table>
+
+                        <div class="wc-proceed-to-checkout">
+                            <button class="round-black-btn-checkout">
+                                PROCEED TO CHECKOUT
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="content-bottom">
+                <h3 class="cb-title">
+                    Subscribe to our newsletter and receive the latest product news, stories, invitations to exclusive design events and much, much more.
+                </h3>
+                <div class="cb-form">
+                    <form action="">
+                        <div class="form-box">
+                            <input type="email" name="your-email" placeholder="Enter Email Address">
+                            <button class='btn btn-outline-dark' type="submit">
+                                <span>SUBSCRIBE</span>
+                                <i class='fas fa-arrow-right'> </i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <h6 class="cb-text">
+                    BY SUBSCRIBING, YOU ACCEPT OUR
+                    <a href="">
+                        <u> PRIVACY POLICY </u>
+                    </a>
+                </h6>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Search modal header -->
+<div class="modal-header-search">
+    <div class="modal-search-main">
+        <form class="modal-wrapper-input-search">
+            <input type="text" class="modal-search-main-input" placeholder="SEARCH" />
+            <button class="modal-search-icon">
+                <svg
+                    class="modal-search-icon-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 14.001 14.51"
+                >
+                    <path
+                        d="M1108.06-516.554a6.456,6.456,0,0,0,1.9-4.581,6.479,6.479,0,0,0-6.479-6.479,6.479,6.479,0,0,0-6.479,6.479,6.479,6.479,0,0,0,6.479,6.479,6.452,6.452,0,0,0,4.044-1.417l2.864,2.864a.359.359,0,0,0,.509,0,.36.36,0,0,0,0-.509Zm-4.581,1.178a5.759,5.759,0,0,0,5.759-5.759,5.759,5.759,0,0,0-5.759-5.759,5.759,5.759,0,0,0-5.759,5.759,5.759,5.759,0,0,0,5.759,5.759Zm0,0"
+                        transform="translate(-1097 527.614)"
+                        fill-rule="evenodd"
+                    ></path>
+                </svg>
+            </button>
+        </form>
+        <span class="modal-search-close">
+                    <svg
+                        class="qodef-svg--close qodef-search-close"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="32"
+                        height="32"
+                        viewBox="0 0 32 32"
+                    >
+                        <g>
+                            <path
+                                d="M 10.050,23.95c 0.39,0.39, 1.024,0.39, 1.414,0L 17,18.414l 5.536,5.536c 0.39,0.39, 1.024,0.39, 1.414,0 c 0.39-0.39, 0.39-1.024,0-1.414L 18.414,17l 5.536-5.536c 0.39-0.39, 0.39-1.024,0-1.414c-0.39-0.39-1.024-0.39-1.414,0 L 17,15.586L 11.464,10.050c-0.39-0.39-1.024-0.39-1.414,0c-0.39,0.39-0.39,1.024,0,1.414L 15.586,17l-5.536,5.536 C 9.66,22.926, 9.66,23.56, 10.050,23.95z"
+                            ></path>
+                        </g>
+                    </svg>
+                </span>
+    </div>
+</div>
+<!-- End Modal search header -->
+
+<!-- Begin modal Cart -->
+
+
+
+<div class="modal-cart hidden">
+    <div class="modal-main-cart">
+                <span class="modal-cart-close">
+                    <svg
+                        class="qodef-svg--close qodef-search-close"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="32"
+                        height="32"
+                        viewBox="0 0 32 32"
+                    >
+                        <g>
+                            <path
+                                d="M 10.050,23.95c 0.39,0.39, 1.024,0.39, 1.414,0L 17,18.414l 5.536,5.536c 0.39,0.39, 1.024,0.39, 1.414,0 c 0.39-0.39, 0.39-1.024,0-1.414L 18.414,17l 5.536-5.536c 0.39-0.39, 0.39-1.024,0-1.414c-0.39-0.39-1.024-0.39-1.414,0 L 17,15.586L 11.464,10.050c-0.39-0.39-1.024-0.39-1.414,0c-0.39,0.39-0.39,1.024,0,1.414L 15.586,17l-5.536,5.536 C 9.66,22.926, 9.66,23.56, 10.050,23.95z"
+                            ></path>
+                        </g>
+                    </svg>
+                </span>
+        <h4 class="modal-cart-heading">Shopping Cart</h4>
+
+        <!-- Cart no item -->
+        <!-- <div class="modal-cart-no-item">
+            <h5 class="modal-cart-no-item__alert">No products in the cart.</h5>
+
+            <a href="#" class="modal-cart-no-item__link"> CONTINUE SHOPPING </a>
+        </div> -->
+
+        <!-- Cart have any item -->
+        <div class="modal-cart-main">
+            <div class="modal-cart-main_product">
+                <div class="modal-cart-main-item">
+                    <a href="#" class="modal-cart-main-item__image">
+                        <img src="./assets/images/cart/item-cart-01.jpg" alt="" />
+                    </a>
+                    <div class="modal-cart-main-content">
+                        <a href="#" class="modal-cart-main-item__name">Butterfly Leather Chair</a>
+                        <p class="modal-cart-main-item__quantity">Quantity: 1</p>
+                        <p class="modal-cart-main-item__price">$176.99</p>
+                    </div>
+                    <span class="modal-cart-main-item__close">
+                                <svg
+                                    class="qodef-svg--close qodef-search-close"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 32 32"
+                                >
+                                    <g>
+                                        <path
+                                            d="M 10.050,23.95c 0.39,0.39, 1.024,0.39, 1.414,0L 17,18.414l 5.536,5.536c 0.39,0.39, 1.024,0.39, 1.414,0 c 0.39-0.39, 0.39-1.024,0-1.414L 18.414,17l 5.536-5.536c 0.39-0.39, 0.39-1.024,0-1.414c-0.39-0.39-1.024-0.39-1.414,0 L 17,15.586L 11.464,10.050c-0.39-0.39-1.024-0.39-1.414,0c-0.39,0.39-0.39,1.024,0,1.414L 15.586,17l-5.536,5.536 C 9.66,22.926, 9.66,23.56, 10.050,23.95z"
+                                        ></path>
+                                    </g>
+                                </svg>
+                            </span>
+                </div>
+            </div>
+            <div class="modal-cart-main-total">
+                <span>TOTAL:</span> <span class="modal-cart-main-total__cost">$176.99</span>
+            </div>
+        </div>
+        <div class="modal-cart-main-btn_link">
+            <a href="#" class="modal-cart-main-btn_link-view">
+                <span> VIEW SHOPPING CART </span>
+            </a>
+            <a href="#" class="modal-cart-main-btn_link-checkout"> GO TO CHECKOUT </a>
+        </div>
+    </div>
+</div>
+
+<!-- End modal Cart -->
+
+
+<footer id="footer">
+    <div class="grid">
+        <div class="col-md-12 footer-grid">
+            <div class="col-md-3 footer-grid-item">
+                <h3 class="col-sm-12">COMPANY</h3>
+                <ul class="col-sm-12">
+                    <li><a href="#">What We Do</a></li>
+                    <li><a href="#">Available Services</a></li>
+                    <li><a href="#">Latest Posts</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-grid-item">
+                <h3 class="col-sm-12">CUSTOMER SERVICE</h3>
+                <ul class="col-sm-12">
+                    <li><a href="#">Help & Contact Us</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-grid-item">
+                <h3 class="col-sm-12">SOCIAL MEDIA</h3>
+                <ul class="col-sm-12">
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-grid-item">
+                <h3 class="col-sm-12">PROFILE</h3>
+                <ul class="col-sm-12">
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Checkout</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    <li><a href="#">Help & Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-12 footer-grid footer-bottom">
+            <a href="#"><img src="./assets/images/logo-big.png" alt="logo" /></a>
+            <p>© 2022 Qode Interactive, All Rights Reserved</p>
+            <span
+            >We use cookies to give you the best experience on our website.
+                        <a href="#">Cookie settings</a>
+                    </span>
+        </div>
+    </div>
+</footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="./assets/js/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="./assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- customer -->
+<script src="./assets/js/base.js"></script>
+<script src ='assets/js/cart.js'></script>
+</body>
+</html>

@@ -1,0 +1,255 @@
+
+body{
+    font-family: Jost,sans-serif;
+}
+
+.grid .title{
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif !important;
+    color: var(--black-color);
+}
+.grid .title .link-text span{
+    color: var(--black-color);
+}
+.container-checkout{
+    position: relative;
+}
+.form-row{
+    display: grid;
+    margin: 0;
+}
+
+.container-checkout .container-cart-title{
+    display: flex;
+    justify-content: center;
+}
+.container-checkout .container-cart-title h1{
+    font-family: Jost,sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 42px;
+    line-height: 1.24em;
+    margin: 50px 0;
+}
+.form-checkout .container-cart-title{
+    padding-left: 15px;
+    font-weight: 400;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.12em;
+}
+.form-checkout{
+    width: 100%;
+    margin-top: 66px;
+    padding: 10px;
+
+}
+.form-checkout .co12-set{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 -15px;
+}
+.form-checkout .co12-set .col-6 .woocommerce-shipping-fields h3 {
+    font-weight: 400;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.12em;
+    margin: 22px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.form-checkout .co12-set .col-6 .woocommerce-shipping-fields h3 span{
+    font-weight: 400;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.12em;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.form-checkout .co12-set .col-6 .woocommerce-billing-fields h3{
+    font-weight: 400;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.12em;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.form-checkout .co12-set {
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+label{
+    font-size: 16px;
+    display: block;
+    margin-bottom: 0.5em;
+}
+.form-checkout .co12-set .col-6 .woocommerce-shipping-fields .woocommerce-input-wrapper .input-text,
+.form-checkout .co12-set .col-6 .woocommerce-billing-fields .form-row .country_to_state,
+.form-checkout .co12-set .col-6 .woocommerce-shipping-fields .form-row .country_to_state,
+.form-checkout .co12-set .col-6 .woocommerce-billing-fields .woocommerce-input-wrapper .input-text{
+
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    cursor: text;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: inherit;
+    line-height: 24px;
+    margin: 0 0 26px;
+    outline: 0;
+    padding: 17px 25px;
+    transition: color .3s ease-out,background-color .3s ease-out,border-color .3s ease-out;position: relative;
+
+}
+textarea{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    cursor: text;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: inherit;
+    line-height: 24px;
+    margin: 0 0 26px;
+    outline: 0;
+    padding: 21px 17px 25px;
+    transition: color .3s ease-out,background-color .3s ease-out,border-color .3s ease-out;
+}
+.woocommerce-checkout-review-order{
+    padding: 15px;
+}
+.form-checkout table{
+    width: 100%;
+}
+
+.form-checkout table tr{
+    border-bottom: 1px solid #ccc;
+}
+.form-checkout .woocommerce-checkout-review-order .shop_table th {
+    text-transform: uppercase;
+    font-family: Jost, sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.43em;
+    letter-spacing: .02em;
+    padding: 15px 0 15px 0;
+}
+.form-checkout .woocommerce-checkout-review-order .shop_table td{
+    padding: 15px 0 15px 0;
+    vertical-align: middle;
+    text-align: left;
+    border: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.43em;
+    box-sizing: border-box;
+}
+.form-checkout .woocommerce-checkout-review-order .shop_table td strong{
+    font-weight: 400;
+    font-size: 15px;
+}
+.form-checkout .woocommerce-checkout-review-order .shop_table .woocommerce-shipping-totals td ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 7px 0 10px 0;
+    padding: 0;
+}
+.form-checkout .woocommerce-checkout-review-order .shop_table .woocommerce-shipping-totals td ul li input{
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+.form-checkout .woocommerce-checkout-review-order .shop_table .woocommerce-shipping-totals td ul li label{
+    margin-top: 7px;
+}
+.form-checkout .woocommerce-checkout-review-order .shop_table .order-total span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2em;
+}
+.form-checkout .woocommerce-checkout-payment {
+    margin-top: 3px;
+}
+.form-checkout .woocommerce-checkout-payment .wc_payment_methods{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.form-checkout .woocommerce-checkout-payment .wc_payment_methods li {
+    padding: 15px 25px 15px 25px;
+    position: relative;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+}
+.form-checkout .woocommerce-checkout-payment .wc_payment_methods li input{
+    position: absolute;
+    top: 18px;
+    left: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.form-checkout .woocommerce-checkout-payment .wc_payment_methods label{
+    text-transform: uppercase;
+    font-family: Jost,sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.43em;
+    letter-spacing: .02em;
+    margin: 0;
+    cursor: pointer;
+}
+.form-checkout .woocommerce-checkout-payment .wc_payment_methods .payment_box p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.form-checkout .woocommerce-checkout-payment .form-row .woocommerce-terms-and-conditions-wrapper .woocommerce-privacy-policy-text p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+.form-checkout .woocommerce-checkout-payment .form-row .woocommerce-terms-and-conditions-wrapper .woocommerce-privacy-policy-text a{
+    text-decoration: none;
+    color: black;
+}
+.round-black-btn{
+    width: fit-content;
+}
+.round-black-btn:before {
+    content: url(../images/product/arrow.png);
+    text-align: left;
+    line-height: 1em;
+    width: 0;
+    overflow: hidden;
+    transition: width, padding-right .3s ease;
+    position: relative;
+}
+
+
+
+
+
+
+
