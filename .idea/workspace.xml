@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f622b53-2fdc-4a6e-ba94-13440d284743" name="Changes" comment="phuong nam" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="phuongnam" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assets/css/main.css" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2FUjayUF8XVhMJJrDtBGrwtKLSX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/cart" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\bai thi ket thuc\furnitare-store\assets\images\cart" />
+      <recent name="D:\bai thi ket thuc\furnitare-store\assets\images\product" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\bai thi ket thuc\furnitare-store" />
+      <recent name="D:\bai thi ket thuc\furnitare-store\assets\images\product" />
+      <recent name="D:\bai thi ket thuc\furnitare-store\assets\images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f622b53-2fdc-4a6e-ba94-13440d284743" name="Changes" comment="" />
+      <created>1664553626509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664553626509</updated>
+      <workItem from="1664553626955" duration="1509000" />
+      <workItem from="1664555687811" duration="56000" />
+      <workItem from="1664555777857" duration="1419000" />
+      <workItem from="1664557358347" duration="393000" />
+      <workItem from="1664557997045" duration="5435000" />
+      <workItem from="1664613743955" duration="27010000" />
+      <workItem from="1665143981989" duration="11000" />
+      <workItem from="1665367280488" duration="8648000" />
+      <workItem from="1665376993829" duration="21521000" />
+      <workItem from="1665486941058" duration="4823000" />
+      <workItem from="1665545061008" duration="298000" />
+      <workItem from="1665926199372" duration="2946000" />
+      <workItem from="1665972155118" duration="1974000" />
+      <workItem from="1665980834816" duration="3610000" />
+      <workItem from="1666148173663" duration="6596000" />
+      <workItem from="1666155742480" duration="838000" />
+      <workItem from="1666169392651" duration="66000" />
+      <workItem from="1666325771147" duration="9000" />
+      <workItem from="1666326192274" duration="8901000" />
+      <workItem from="1666420802486" duration="3753000" />
+      <workItem from="1666693905896" duration="39586000" />
+      <workItem from="1666795454224" duration="45683000" />
+      <workItem from="1666952002602" duration="220000" />
+      <workItem from="1666952264394" duration="35000" />
+    </task>
+    <task id="LOCAL-00001" summary="phuong nam">
+      <created>1666950845338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666950845339</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="phuong nam" />
+    <option name="LAST_COMMIT_MESSAGE" value="phuong nam" />
+  </component>
+</project>
