@@ -692,7 +692,6 @@ img {
     position: relative;
     width: 50%;
     height: 56px;
-    border: 1px solid var(--border-color);
 }
 
 .subscribe-session__form input {
