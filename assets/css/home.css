@@ -226,6 +226,7 @@ main {
 
 .feature-collection--product__item + .feature-collection--product__item {
     margin: 8px;
+    text-decoration: none;
 }
 
 .feature-collection--product__item:last-child {
