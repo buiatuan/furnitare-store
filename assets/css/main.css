@@ -1,6 +1,6 @@
 /* Begin css Header */
 #header {
-    z-index: 100;
+    z-index: 9;
     font-family: 'Jost', sans-serif !important;
     height: var(--height-header);
     width: 100%;
@@ -31,6 +31,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-left: 0;
 }
 
 .header-nav-menu > li {
@@ -379,7 +380,7 @@ img {
     cursor: pointer;
     transform: rotate(0);
     transform-origin: center;
-    transition: transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .modal-cart-main-item__close:hover {
@@ -419,7 +420,7 @@ img {
     line-height: 48px;
     text-align: center;
     position: relative;
-    transition: padding-left ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
 }
 
 .modal-cart-main-btn_link-view::before {
@@ -430,7 +431,7 @@ img {
     top: 0;
     left: 80px;
     overflow: hidden;
-    transition: width, left, ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
 }
 
 .modal-cart-main-btn_link-view:hover::before {
@@ -465,7 +466,7 @@ img {
     position: absolute;
     top: 0;
     left: -16px;
-    transition: left linear 0.3s;
+    transition: all linear 0.3s;
 }
 
 .modal-cart-main-btn_link-checkout:hover {
@@ -516,7 +517,7 @@ img {
     top: 0;
     left: 80px;
     overflow: hidden;
-    transition: width, left, ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
 }
 
 .modal-cart-no-item__link:hover {
@@ -632,3 +633,96 @@ img {
 }
 
 /* End css Footer */
+
+/* Nav link page */
+.nav-link-page {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.nav-link-page-item {
+    color: var(--text-color);
+    position: relative;
+    margin-right: 20px;
+}
+
+.nav-link-page-item:hover {
+    text-decoration: underline;
+}
+
+.nav-link-page-item::after {
+    content: '/';
+    position: absolute;
+    right: -10px;
+}
+
+.nav-link-page-item:last-child::after {
+    content: '';
+}
+
+.nav-link-page-item:last-child:hover {
+    text-decoration: none;
+}
+
+/* Form subscribe */
+.subscribe-session {
+    font-family: 'Jost', sans-serif !important;
+    width: 100%;
+    padding: 140px 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subscribe-heading {
+    font-family: 'Jost', sans-serif !important;
+    font-size: 2.8rem;
+    font-weight: 400;
+    width: 60%;
+    padding: 0 30px;
+    margin-bottom: 50px;
+}
+
+.subscribe-session__form {
+    position: relative;
+    width: 50%;
+    height: 56px;
+    border: 1px solid var(--border-color);
+}
+
+.subscribe-session__form input {
+    height: 100%;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 0 10px;
+    outline: none;
+}
+
+.btn-subscribe_custom {
+    position: absolute;
+    top: 24%;
+    right: 24px;
+}
+
+.subscribe-session--message {
+    width: 100%;
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.subscribe-session--message a {
+    color: var(--text-color);
+    text-decoration: underline;
+    transition: all 0.2s;
+}
+
+.subscribe-session--message a:hover {
+    opacity: 0.7;
+}
