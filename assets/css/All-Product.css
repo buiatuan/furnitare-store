@@ -1,5 +1,6 @@
 .grid {
     font-family: Jost,sans-serif;
+
 }
 hr{
     width: 93%;
@@ -101,6 +102,37 @@ hr{
 }
 .columns-3 ul li {
     margin: 5px;
-  background-color: black;
     width: 33%;
+    list-style: none;
 }
+product img{
+    display: block;
+    width: 100%;
+}
+.product-image-inner{
+    display: flex;
+    flex-direction: row-reverse;
+    top: initial;
+    bottom: 0;
+    height: 36px;
+    padding: 0;
+    transition: .3s ease-out;
+}
+.product-image-inner:before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.add-to-wishlist{
+    width: 50%;
+    color: #0a53be;
+}
+.add-to-quickview{
+    width: 50%;
+    color: #090909;
+}
+
