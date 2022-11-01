@@ -609,6 +609,118 @@ hr{
     font-size: 18px;
     padding-left: 10px;
 }
+.columns-3 ul{
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 -15px;
+    list-style: none;
+    clear: both;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.columns-3 ul li {
+    margin: 5px;
+    width: 28%;
+    list-style: none;
+    position: relative;
+}
+.product h2{
+    font-family: Jost,sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 36px;
+    line-height: 1.17em;
+    margin: 50px 8px 50px 100px;
+}
+.product .feature-collection--product__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 6px 10px;
+    overflow: hidden;
+}
+ .product .feature-collection--product__item + .feature-collection--product__item {
+    margin: 8px;
+    text-decoration: none;
+}
+
+.product .feature-collection--product__item:last-child {
+    margin: 0;
+    text-decoration: none;
+}
+
+.product .feature-collection--product__item img {
+    width: 100%;
+}
+
+.product .feature-collection--product__item h4 {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.product .btn-add-cart {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.product .btn-add-cart {
+    width: 110px;
+    position: relative;
+    min-width: 80px;
+    overflow: hidden;
+    transition: all linear 0.2s;
+}
+
+.btn-add-cart::after {
+    font-size: 1.5rem;
+    content: 'Add to cart';
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0%;
+    transition: all linear 0.4s;
+}
+
+.feature-collection--product__item:hover .btn-add-cart {
+    color: transparent;
+}
+
+.feature-collection--product__item:hover .btn-add-cart::after {
+    height: 98%;
+    color: var(--text-color);
+}
+
+.btn-add-cart::before {
+    content: url('../images/home/add_to_cart.svg');
+    position: absolute;
+    top: 2px;
+    left: -14px;
+    color: var(--black-color);
+    transition: all linear 0.4s;
+}
+
+.btn-add-cart:hover::after {
+    right: -26px;
+}
+
+.btn-add-cart:hover::before {
+    left: 6px;
+}
+
+.btn-add-cart:hover {
+    width: 110px;
+}
 
 
 
