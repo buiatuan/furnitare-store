@@ -1,0 +1,593 @@
+.col-4 {
+    width: 25%;
+}
+
+.col-8 {
+    width: 75%;
+}
+
+.container-handmade {
+    padding: 30px 0 30px 0;
+}
+
+.grid .title {
+    margin-top: 100px;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif !important;
+    color: var(--black-color);
+}
+
+.grid .title .link-text span {
+    color: var(--black-color);
+}
+
+.col-sm-12-title {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #000;
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+.item-sidebar ul {
+    flex: 1;
+    padding: 0 0 0 10px;
+    margin: 0;
+}
+
+.item-sidebar ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.item-sidebar ul li a {
+    font-family: 'Jost', sans-serif !important;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    transition: padding-left linear 0.3s;
+}
+
+.item-sidebar ul li a::before {
+    content: url('../images/arrow.svg');
+    width: 12px;
+    height: 22px;
+    position: absolute;
+    top: 0;
+    left: -12px;
+    transition: left linear 0.3s;
+}
+
+.item-sidebar ul li a:hover {
+    padding-left: 16px;
+}
+
+.item-sidebar ul li a:hover:before {
+    left: 0;
+}
+
+.col-4 {
+    padding-left: 50px;
+}
+
+.all-item-product {
+    width: 100%;
+    text-align: left;
+}
+
+.item-sidebar .social-media li a {
+    font-family: 'Jost', sans-serif !important;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    transition: padding-left linear 0.3s;
+}
+
+.container-inner .entry-title {
+    font-weight: 400;
+    color: #000;
+    font-size: 42px;
+    line-height: 1.24em;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.wp-post .wp-post-information p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.wp-post-information_lorem {
+    position: relative;
+    border-left: 1px solid black;
+}
+
+.wp-post-information .wp-post-information_lorem p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.4;
+    margin: 50px 0;
+    padding-left: 40px;
+    color: black;
+}
+
+.wp-post-information .gap-default {
+    display: flex;
+}
+
+.wp-post-information .gap-default .img1 {
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wp-post-information .gap-default .img2 {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wp-post-information .gap-default .img2 p,
+.wp-post-information .gap-default .img1 p {
+    padding-top: 30px;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif !important;
+    color: var(--black-color);
+    width: 90%;
+}
+
+.wp-post-information h1 {
+    font-weight: 400;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.12em;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.wp-post-information p {
+    padding-top: 20px;
+}
+
+.wp-post-information ul {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    margin: 0 -15px;
+    list-style: none;
+    clear: both;
+}
+
+.wp-post-information ul li {
+    margin: 5px;
+    width: 32%;
+    list-style: none;
+    position: relative;
+}
+
+.wp-post-information .feature-collection--product__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 6px 10px;
+    overflow: hidden;
+}
+
+.wp-post-information .feature-collection--product__item + .feature-collection--product__item {
+    margin: 8px;
+    text-decoration: none;
+}
+
+.wp-post-information .feature-collection--product__item:last-child {
+    margin: 0;
+    text-decoration: none;
+}
+
+.wp-post-information .feature-collection--product__item img {
+    width: 100%;
+}
+
+.wp-post-information .feature-collection--product__item h4 {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.btn-add-cart {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.wp-post-information .btn-add-cart {
+    width: 110px;
+    position: relative;
+    min-width: 80px;
+    overflow: hidden;
+    transition: all linear 0.2s;
+}
+
+.btn-add-cart::after {
+    font-size: 1.5rem;
+    content: 'Add to cart';
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0%;
+    transition: all linear 0.4s;
+}
+
+.feature-collection--product__item:hover .btn-add-cart {
+    color: transparent;
+}
+
+.feature-collection--product__item:hover .btn-add-cart::after {
+    height: 98%;
+    color: var(--text-color);
+}
+
+.btn-add-cart::before {
+    content: url('../images/home/add_to_cart.svg');
+    position: absolute;
+    top: 2px;
+    left: -14px;
+    color: var(--black-color);
+    transition: all linear 0.4s;
+}
+
+.btn-add-cart:hover::after {
+    right: -26px;
+}
+
+.btn-add-cart:hover::before {
+    left: 6px;
+}
+
+.btn-add-cart:hover {
+    width: 110px;
+}
+
+.blog-list-sidebar__item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    min-height: 200px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.blog-list-sidebar__item h3 {
+    font-size: 1.8rem;
+    font-family: 'Jost', sans-serif !important;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.blog-list-sidebar__item ul {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.blog-list-sidebar__item ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-list-sidebar__item ul li a {
+    font-family: 'Jost', sans-serif !important;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    transition: padding-left linear 0.3s;
+}
+
+.blog-list-sidebar__item ul li a::before {
+    content: url('../images/arrow.svg');
+    width: 12px;
+    height: 22px;
+    position: absolute;
+    top: 0;
+    left: -12px;
+    transition: left linear 0.3s;
+}
+
+.blog-list-sidebar__item ul li a:hover {
+    padding-left: 16px;
+}
+
+.blog-list-sidebar__item ul li a:hover:before {
+    left: 0;
+}
+
+.blog-list-sidebar__item .custom-sidebar li a {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.custom-sidebar__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0;
+}
+
+.custom-sidebar__item img {
+    width: 20%;
+}
+
+.custom-sidebar__item a {
+    position: unset;
+    margin-left: 14px;
+    font-weight: 300;
+    color: var(--text-color);
+    transition: all 0.2s;
+}
+
+.custom-sidebar__item a::before {
+    content: '' !important;
+    clear: both;
+}
+
+.custom-sidebar__item a:hover {
+    padding-left: 0 !important;
+    opacity: 0.8;
+}
+
+.wp-post .wp-post-information .qodef-m {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin-top: 50px;
+    padding: 12px 8% 12px 12px;
+    border: 1px solid #000;
+}
+
+.qodef-m .qodef-m-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.qodef-m-inner .qodef-m-image {
+    flex-shrink: 0;
+    margin-right: 25px;
+}
+
+#author-info .qodef-m-author {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: Jost, sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.375em;
+    letter-spacing: .02em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.qodef-m-content .qodef-m-social-icons {
+    margin-top: 13px
+}
+
+.qodef-m-content .qodef-m-social-icons a {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 13px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+    transition: color .3s ease-out;
+    cursor: pointer;
+}
+
+#qodef-related-posts {
+    margin-top: 50px;
+}
+
+#qodef-related-posts .qodef-realted-post-title {
+    font-weight: 400;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.12em;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+#qodef-related-posts .all-qodef-blog-item {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.qodef-e .qodef-e-inner .qodef-e-media-image a {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+
+.qodef-e .qodef-e-inner .qodef-e-media-image img {
+    display: block;
+    width: 100%;
+    transform: scale(1.1) translateX(0);
+    transition: transform .4s ease-in-out;
+}
+
+.qodef-e.qodef-blog-item :hover .qodef-e-media-image img {
+    transform: scale(1.1) translateX(3%);
+}
+
+#qodef-related-posts article {
+    position: relative;
+    width: 33.3333%;
+    display: flex;
+}
+
+#qodef-related-posts article .qodef-e-inner .qodef-e-content {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+#qodef-related-posts article .qodef-e-inner .qodef-e-content .qodef-e-top-holder {
+    margin-top: 11px;
+}
+
+.qodef-e-info > * {
+    font-size: 14px;
+    line-height: 1.8em;
+    text-transform: uppercase;
+    display: inline-flex;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    color: #000;
+}
+
+#qodef-related-posts article .qodef-e-inner .qodef-e-text h4 {
+    font-weight: 400;
+    color: #000;
+    font-size: 20px;
+    line-height: 1.3em;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+#qodef-page-comments {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin-top: 108px;
+}
+
+#respond {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+#respond .comment-reply-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.12em;
+    margin: 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.review-form {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin-top: 108px;
+}
+
+.review-form .title-reply h3 {
+    font-family: Jost, sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.12em;
+    margin: 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.review-form .title-reply p {
+    margin: 0 0 43px 0;
+}
+
+.review-form .form-group label {
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1em;
+}
+
+.review-form {
+    margin-bottom: 120px;
+}
+
+.review-form .form-control {
+    border: 1px solid black;
+    outline: none;
+    margin-bottom: 30px;
+    border-radius: 0;
+}
+
+.review-form .form-group textarea {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.review-form .form-group input {
+    padding-left: 30px;
+    height: 60px;
+}
+
+.review-form .form-group textarea::placeholder,
+.review-form .form-group input::placeholder {
+    color: black;
+    font-size: 16px;
+}
+
+.form-check {
+    margin-bottom: 30px;
+}
+
+.form-check .form-check-input {
+    width: 23px;
+    height: 23px;
+    outline: none;
+}
+
+.form-check .form-check-label {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
