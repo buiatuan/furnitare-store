@@ -1,9 +1,9 @@
 
 .pd-wrap {
-    font-family: Jost,sans-serif;
+    font-family: Jost, sans-serif;
 }
 
-.title{
+.title {
     margin-bottom: 50px;
     margin-top: 110px;
     font-size: 1.3rem;
@@ -12,9 +12,11 @@
     font-family: 'Jost', sans-serif !important;
     color: var(--black-color);
 }
-.link-text span{
+
+.link-text span {
     color: var(--black-color);
 }
+
 .heading-section {
     text-align: left;
     margin-bottom: 20px;
@@ -289,7 +291,7 @@
 }
 
 .round-black-btn:before {
-    content: url(../images/product/arrow.png);
+    content: url(../images/cart/arrow_light.svg);
     text-align: left;
     line-height: 1em;
     width: 0;
@@ -446,9 +448,11 @@
     color: #1c1c1c;
     border-radius: 10px;
 }
-.container .accordion{
+
+.container .accordion {
     margin-top: 100px;
 }
+
 .accordion .container {
     position: relative;
     justify-content: space-between;
@@ -462,6 +466,7 @@
     color: black;
     cursor: pointer;
 }
+
 .accordion .label::before {
     content: '+';
     color: black;
@@ -496,6 +501,7 @@
     width: 450px;
     display: flex;
 }
+
 .accordion .content img {
     display: flex;
     width: 40%;
@@ -521,27 +527,32 @@
     font-size: 50px;
     display: flex;
 }
+
 .accordion {
     width: 100%;
     margin: 0 auto;
     color: black;
     background-color: white;
 }
-.accordion hr{
+
+.accordion hr {
     width: 100%;
     margin-left: 0;
-    border: -0.6px solid #4d5154;
+    border: 1px solid #4d5154;
 }
-hr{
+
+hr {
     margin-left: 48px;
     width: 93%;
 }
-.content-bottom{
+
+.content-bottom {
     max-width: 666px;
     margin: 142px auto 130px;
     text-align: center;
 }
-.cb-title{
+
+.cb-title {
     font-family: 'Jost', sans-serif !important;
     font-weight: 400;
     color: var(--black-color);
@@ -549,30 +560,36 @@ hr{
     line-height: 1.2em;
     margin: 25px 0;
 }
-.cb-form{
+
+.cb-form {
     position: relative;
     margin: 55px auto 0;
     max-width: 620px;
 }
-.cb-form input{
+
+.cb-form input {
     width: 620px;
     height: 60px;
 }
-.content-bottom .cb-form .form-box input:placeholder-shown{
+
+.content-bottom .cb-form .form-box input:placeholder-shown {
     font-size: 1.6rem;
     text-indent: 20px;
 }
-.cb-form button{
+
+.cb-form button {
     position: absolute;
     right: 15px;
     top: 15px;
 }
-.cb-form button span{
+
+.cb-form button span {
     border: 1px solid;
     border-radius: 20px;
 }
-.cb-text{
-    font-family: Jost,sans-serif;
+
+.cb-text {
+    font-family: Jost, sans-serif;
     font-weight: 400;
     color: var(--black-color);
     font-size: 1.4rem;
@@ -581,13 +598,16 @@ hr{
     text-transform: uppercase;
     margin-top: 25px;
 }
-.cb-text a{
+
+.cb-text a {
     color: #313131;
 }
-.cb-text a:hover{
+
+.cb-text a:hover {
     color: #313131;
 }
-.btn-outline-dark{
+
+.btn-outline-dark {
     border-radius: 20px;
     width: 150px;
     height: 35px;
@@ -595,21 +615,25 @@ hr{
     border: 1px solid;
 
 }
-.btn-outline-dark:hover{
+
+.btn-outline-dark:hover {
     border-radius: 5px;
 }
-.content-bottom .cb-form .form-box .btn-outline-dark span{
+
+.content-bottom .cb-form .form-box .btn-outline-dark span {
     border: none;
     font-weight: 400;
     font-size: 18px;
     margin-top: 10px;
     letter-spacing: 0.5px;
 }
-.content-bottom .cb-form .form-box .btn-outline-dark i{
+
+.content-bottom .cb-form .form-box .btn-outline-dark i {
     font-size: 18px;
     padding-left: 10px;
 }
-.columns-3 ul{
+
+.columns-3 ul {
     display: flex;
     position: relative;
     align-items: flex-start;
@@ -621,20 +645,23 @@ hr{
     justify-content: center;
     margin-bottom: 100px;
 }
+
 .columns-3 ul li {
     margin: 5px;
     width: 28%;
     list-style: none;
     position: relative;
 }
-.product h2{
-    font-family: Jost,sans-serif;
+
+.product h2 {
+    font-family: Jost, sans-serif;
     font-weight: 400;
     color: #000;
     font-size: 36px;
     line-height: 1.17em;
     margin: 50px 8px 50px 100px;
 }
+
 .product .feature-collection--product__item {
     display: flex;
     align-items: center;
@@ -644,7 +671,8 @@ hr{
     padding: 6px 10px;
     overflow: hidden;
 }
- .product .feature-collection--product__item + .feature-collection--product__item {
+
+.product .feature-collection--product__item + .feature-collection--product__item {
     margin: 8px;
     text-decoration: none;
 }
