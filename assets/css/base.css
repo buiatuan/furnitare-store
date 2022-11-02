@@ -117,6 +117,7 @@ a:hover {
     width: 140px;
     display: flex;
     align-items: center;
+    background-color: var(--white-color);
     padding-left: 10px;
     font-size: 1.6rem;
     color: var(--text-color);
@@ -161,4 +162,8 @@ a:hover {
     transform: rotate(-90deg);
     background-color: var(--white-color);
     display: none;
+}
+
+main {
+    margin-top: 76px;
 }

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f622b53-2fdc-4a6e-ba94-13440d284743" name="Changes" comment="phuong nam" />
+    <list default="true" id="5f622b53-2fdc-4a6e-ba94-13440d284743" name="Changes" comment="phuong nam">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_28_2022_4_51_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_28_2022_4_51_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All-Product.html" beforeDir="false" afterPath="$PROJECT_DIR$/All-Product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/All-Product.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/All-Product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/home.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
