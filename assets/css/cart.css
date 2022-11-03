@@ -1,10 +1,12 @@
-body{
-    font-family: Jost,sans-serif;
+body {
+    font-family: Jost, sans-serif;
 }
-ul{
+
+ul {
     padding-left: 0;
 }
-.title{
+
+.title {
     margin-top: 100px;
     margin-left: 20px;
     font-size: 1.3rem;
@@ -13,95 +15,114 @@ ul{
     font-family: 'Jost', sans-serif !important;
     color: var(--black-color);
 }
-.link-text span{
+
+.link-text span {
     color: var(--black-color);
 }
-.container-cart{
+
+.container-cart {
     position: relative;
 }
-.content-cart{
-    margin: 0 auto ;
+
+.content-cart {
+    margin: 0 auto;
     width: 1300px;
 }
-.container-cart .container-cart-title{
-   display: flex;
+
+.container-cart .container-cart-title {
+    display: flex;
     justify-content: center;
 }
-.container-cart .container-cart-title h1{
-    font-family: Jost,sans-serif;
+
+.container-cart .container-cart-title h1 {
+    font-family: Jost, sans-serif;
     font-weight: 400;
     color: #000;
     font-size: 42px;
     line-height: 1.24em;
     margin: 50px 0;
 }
-.content-cart .woocommerce-cart-form .table-cart{
+
+.content-cart .woocommerce-cart-form .table-cart {
     width: 100%;
     border: 1px solid #ccc;
 }
-tr{
+
+tr {
     border: 1px solid #ccc;
 }
-.content-cart .woocommerce-cart-form .table-cart tr th{
+
+.content-cart .woocommerce-cart-form .table-cart tr th {
     padding: 15px 0 15px 15px;
     vertical-align: middle;
     text-align: left;
     border: 0;
     text-transform: uppercase;
-    font-family: Jost,sans-serif;
+    font-family: Jost, sans-serif;
     font-weight: 400;
     color: #000;
     font-size: 14px;
     line-height: 1.43em;
     letter-spacing: .02em;
     text-transform: uppercase;
-    font-size: 20px!important;
-    font-weight: 400!important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
 }
-.product-remove{
+
+.product-remove {
     width: 63px;
     text-align: center;
 }
-.product-thumbnail{
+
+.product-thumbnail {
     width: 112px;
     padding-left: 0;
 }
-.product-name{
+
+.product-name {
     text-align: left;
     width: 432px;
     padding-left: 44px;
 }
-.product-price{
+
+.product-price {
     min-width: 200px;
 }
-.product-quantity{
+
+.product-quantity {
     min-width: 230px;
 }
-.product-subtotal{
+
+.product-subtotal {
     text-align: right;
     padding-right: 32px;
 }
-.woocommerce-cart-form__cart-item td{
+
+.woocommerce-cart-form__cart-item td {
     padding: 15px 0 15px 15px;
     vertical-align: middle;
     text-align: left;
     border: 0;
 }
-.woocommerce-cart-form__cart-item td a{
+
+.woocommerce-cart-form__cart-item td a {
     color: #000;
     text-decoration: none;
     transition: color .3s ease-out;
     cursor: pointer;
 }
-.woocommerce-cart-form__cart-item .product-name a{
+
+.woocommerce-cart-form__cart-item .product-name a {
     font-size: 15px;
     font-weight: 500;
     color: #5b5b5b;
 }
-.woocommerce-cart-form__cart-item .product-price span{
+
+.woocommerce-cart-form__cart-item .product-price span {
     font-size: 14px;
     font-weight: 500;
 }
+
 .woocommerce-cart-form__cart-item .product-quantity .qtyminus {
     width: 40px;
     height: 41px;
@@ -140,18 +161,22 @@ tr{
     display: flex;
     margin-right: 20px;
 }
-.woocommerce-cart-form__cart-item .product-subtotal{
+
+.woocommerce-cart-form__cart-item .product-subtotal {
     text-align: right;
     padding-right: 30px;
 }
-.woocommerce-cart-form__cart-item .product-subtotal span{
+
+.woocommerce-cart-form__cart-item .product-subtotal span {
     font-size: 14px;
     font-weight: 500;
 }
-.actions{
-   padding-right: 50px;
+
+.actions {
+    padding-right: 50px;
     padding-bottom: 35px;
 }
+
 .round-black-btn {
     margin-left: 1080px;
     position: absolute;
@@ -180,7 +205,7 @@ tr{
 }
 
 .round-black-btn:before {
-    content: url(../images/product/arrow.png);
+    content: url(../images/product/arrow_light.svg);
     text-align: left;
     line-height: 1em;
     width: 0;
@@ -193,11 +218,13 @@ tr{
     padding-right: 20px;
     transition: 0.5s;
 }
-.cart-collaterals .cart_totals{
+
+.cart-collaterals .cart_totals {
     width: 530px;
 }
-.cart-collaterals .cart_totals h2{
-    font-family: Jost,sans-serif;
+
+.cart-collaterals .cart_totals h2 {
+    font-family: Jost, sans-serif;
     font-weight: 400;
     color: #000;
     font-size: 36px;
@@ -206,50 +233,60 @@ tr{
     -ms-word-wrap: break-word;
     word-wrap: break-word;
 }
-.cart-collaterals .cart_totals table{
+
+.cart-collaterals .cart_totals table {
     width: 100%;
 }
-.cart-collaterals .cart_totals .shop_table th{
+
+.cart-collaterals .cart_totals .shop_table th {
     padding-top: 13px;
     padding-bottom: 14px;
     padding-left: 15px;
-    font-size: 20px!important;
-    font-weight: 400!important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
     color: #000;
     line-height: 1.43em;
     letter-spacing: .02em;
-    font-family: Jost,sans-serif;
+    font-family: Jost, sans-serif;
 }
-.cart-collaterals .cart_totals .shop_table td{
+
+.cart-collaterals .cart_totals .shop_table td {
     padding: 15px 0 15px 15px;
     text-align: right;
     padding-right: 30px;
 }
-.cart-collaterals .cart_totals .shop_table .woocommerce-Price-amount{
+
+.cart-collaterals .cart_totals .shop_table .woocommerce-Price-amount {
     font-weight: 500;
     font-size: 16px;
 }
-.cart-collaterals .cart_totals .shop_table td ul li{
+
+.cart-collaterals .cart_totals .shop_table td ul li {
     margin: 0 0 10px;
     list-style: none;
     font-size: 16px;
     color: #000000;
     font-weight: 400;
 }
-.cart-collaterals .cart_totals .shop_table td ul li input{
+
+.cart-collaterals .cart_totals .shop_table td ul li input {
     margin-right: 10px;
 }
-.cart-collaterals .cart_totals .shop_table td p{
+
+.cart-collaterals .cart_totals .shop_table td p {
     font-size: 16px;
     font-weight: 400;
 }
-.cart-collaterals .cart_totals .shop_table td p strong{
+
+.cart-collaterals .cart_totals .shop_table td p strong {
     font-weight: 600;
     font-size: 16px;
 }
-.wc-proceed-to-checkout{
+
+.wc-proceed-to-checkout {
     margin: 50px 0 120px 0;
 }
+
 .round-black-btn-checkout {
     position: relative;
     font-family: Jost, sans-serif;
@@ -277,7 +314,7 @@ tr{
 }
 
 .round-black-btn-checkout:before {
-    content: url(../images/product/arrow.png);
+    content: url(../images/product/arrow_light.svg);
     text-align: left;
     line-height: 1em;
     width: 0;
@@ -292,16 +329,18 @@ tr{
 }
 
 /*Email*/
-hr{
+hr {
     margin-left: 48px;
     width: 93%;
 }
-.content-bottom{
+
+.content-bottom {
     max-width: 666px;
     margin: 142px auto 130px;
     text-align: center;
 }
-.cb-title{
+
+.cb-title {
     font-family: 'Jost', sans-serif !important;
     font-weight: 400;
     color: var(--black-color);
@@ -309,30 +348,36 @@ hr{
     line-height: 1.2em;
     margin: 25px 0;
 }
-.cb-form{
+
+.cb-form {
     position: relative;
     margin: 55px auto 0;
     max-width: 620px;
 }
-.cb-form input{
+
+.cb-form input {
     width: 620px;
     height: 60px;
 }
-.content-bottom .cb-form .form-box input:placeholder-shown{
+
+.content-bottom .cb-form .form-box input:placeholder-shown {
     font-size: 1.6rem;
     text-indent: 20px;
 }
-.cb-form button{
+
+.cb-form button {
     position: absolute;
     right: 15px;
     top: 15px;
 }
-.cb-form button span{
+
+.cb-form button span {
     border: 1px solid;
     border-radius: 20px;
 }
-.cb-text{
-    font-family: Jost,sans-serif;
+
+.cb-text {
+    font-family: Jost, sans-serif;
     font-weight: 400;
     color: var(--black-color);
     font-size: 1.4rem;
@@ -341,28 +386,34 @@ hr{
     text-transform: uppercase;
     margin-top: 25px;
 }
-.cb-text a{
+
+.cb-text a {
     color: #313131;
 }
-.cb-text a:hover{
+
+.cb-text a:hover {
     color: #313131;
 }
-.btn-outline-dark{
+
+.btn-outline-dark {
     border-radius: 20px;
     width: 150px;
     height: 35px;
 }
-.btn-outline-dark:hover{
+
+.btn-outline-dark:hover {
     border-radius: 5px;
 }
-.content-bottom .cb-form .form-box .btn-outline-dark span{
+
+.content-bottom .cb-form .form-box .btn-outline-dark span {
     border: none;
     font-weight: 400;
     font-size: 18px;
     margin-top: 10px;
     letter-spacing: 0.5px;
 }
-.content-bottom .cb-form .form-box .btn-outline-dark i{
+
+.content-bottom .cb-form .form-box .btn-outline-dark i {
     font-size: 18px;
     padding-left: 10px;
 }
