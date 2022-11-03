@@ -583,6 +583,56 @@
     font-weight: 400;
 }
 
+.wp-post .wp-post-information .form-comment {
+    margin-top: 30px;
+}
+
+.wp-post .wp-post-information .form-comment .qodef-e-inner {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fafafa;
+    padding: 19px 20px 17px;
+}
+
+.qodef-e-inner .qodef-e-image {
+    flex-shrink: 0;
+    margin-right: 12px;
+}
+
+.qodef-e-inner .qodef-e-image img {
+    display: block;
+    border-radius: 100%;
+}
+
+
+.qodef-e-inner .qodef-e-content .qodef-e-title {
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.375em;
+    letter-spacing: .02em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.qodef-e-inner .qodef-e-content .qodef-e-date a {
+    color: #2f2f2f;
+    font-size: 13px;
+    font-style: italic;
+    text-decoration: none;
+    transition: color .3s ease-out;
+    cursor: pointer;
+}
+
+.qodef-e-inner .qodef-e-content .qodef-e-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 
 
 
